@@ -8,6 +8,23 @@
     <script>
         tailwind.config = {
             theme: {
+                // screens: {
+                //     '2xl': { 'max': '1535px' },
+                //     // => @media (max-width: 1535px) { ... }
+
+                //     'xl': { 'max': '1279px' },
+                //     // => @media (max-width: 1279px) { ... }
+
+                //     'lg': { 'max': '1023px' },
+                //     // => @media (max-width: 1023px) { ... }
+
+                //     'md': { 'max': '767px' },
+                //     // => @media (max-width: 767px) { ... }
+
+                //     'sm': { 'max': '639px' },
+                //     // => @media (max-width: 639px) { ... }
+                // }
+
                 extend: {
                     colors: {
                         clifford: '#da373d',
@@ -21,7 +38,7 @@
 
 <body class="text-base relative">
     <header class="sticky top-0 left-0 right-0 bg-white shadow-lg">
-        <article class="flex justify-between items-center py-4 border-b-[1.7px] px-10">
+        <article class="flex justify-between items-center py-4 border-b-[1.7px] px-10 ">
             <img class="w-28" src="./images/mainlogo.png" alt="">
             <section class="flex items-center border-[1.9px] rounded-full py-2 px-4 gap-4">
                 <p class="border-r-[1px] px-4 font-medium">Anywhere</p>
@@ -44,60 +61,66 @@
             </section>
         </article>
 
-
-        <article class="flex justify-between items-center py-4 px-10">
-            <section class="flex flex-col items-center justify-between gap-1">
-                <img class="w-5 h-5" src="images/1 (1).jpg" alt="">
-                <p class="font-medium text-xs">Bed and breakfast</p>
-            </section>
-            <section class="flex flex-col items-center justify-between gap-1">
-                <img class="w-5 h-5" src="images/1 (2).jpg" alt="">
-                <p class="font-medium text-xs">Rooms</p>
-            </section>
-            <section class="flex flex-col items-center justify-between gap-1">
-                <img class="w-5 h-5" src="images/1 (3).jpg" alt="">
-                <p class="font-medium text-xs">Pools</p>
-            </section>
-            <section class="flex flex-col items-center justify-between gap-1">
-                <img class="w-5 h-5" src="images/1 (4).jpg" alt="">
-                <p class="font-medium text-xs">OMG</p>
-            </section>
-            <section class="flex flex-col items-center justify-between gap-1">
-                <img class="w-5 h-5" src="images/1 (5).jpg" alt="">
-                <p class="font-medium text-xs">Design</p>
-            </section>
-            <section class="flex flex-col items-center justify-between gap-1">
-                <img class="w-5 h-5" src="images/1 (6).jpg" alt="">
-                <p class="font-medium text-xs">Luxe</p>
-            </section>
-            <section class="flex flex-col items-center justify-between gap-1">
-                <img class="w-5 h-5" src="images/1 (7).jpg" alt="">
-                <p class="font-medium text-xs">Dorms</p>
-            </section>
-            <section class="flex flex-col items-center justify-between gap-1">
-                <img class="w-5 h-5" src="images/1 (8).jpg" alt="">
-                <p class="font-medium text-xs">Tiny home</p>
-            </section>
-            <section class="flex flex-col items-center justify-between gap-1">
-                <img class="w-5 h-5" src="images/1 (9).jpg" alt="">
-                <p class="font-medium text-xs">New</p>
-            </section>
-            <section class="flex flex-col items-center justify-between gap-1">
-                <img class="w-5 h-5" src="images/1 (10).jpg" alt="">
-                <p class="font-medium text-xs">Surfing</p>
-            </section>
-            <section class="flex flex-col items-center justify-between gap-1">
-                <img class="w-5 h-5" src="images/1 (11).jpg" alt="">
-                <p class="font-bold text-xs">Countryside</p>
-            </section>
-            <section class="flex flex-col items-center justify-between gap-1">
-                <img class="w-5 h-5" src="images/1 (12).jpg" alt="">
-                <p class="font-medium text-xs">national Park</p>
-            </section>
-
-            <p class="font-bold border-[1.8px] px-4 py-2 rounded-lg">Filters</p>
-
         </article>
+
+        <article class="">
+
+
+
+            <article class="flex justify-between items-center py-4 px-10">
+                <section class="flex flex-col items-center justify-between gap-1">
+                    <img class="w-5 h-5" src="images/1 (1).jpg" alt="">
+                    <p class="font-medium text-xs">Bed and breakfast</p>
+                </section>
+                <section class="flex flex-col items-center justify-between gap-1">
+                    <img class="w-5 h-5" src="images/1 (2).jpg" alt="">
+                    <p class="font-medium text-xs">Rooms</p>
+                </section>
+                <section class="flex flex-col items-center justify-between gap-1">
+                    <img class="w-5 h-5" src="images/1 (3).jpg" alt="">
+                    <p class="font-medium text-xs">Pools</p>
+                </section>
+                <section class="flex flex-col items-center justify-between gap-1">
+                    <img class="w-5 h-5" src="images/1 (4).jpg" alt="">
+                    <p class="font-medium text-xs">OMG</p>
+                </section>
+                <section class="flex flex-col items-center justify-between gap-1">
+                    <img class="w-5 h-5" src="images/1 (5).jpg" alt="">
+                    <p class="font-medium text-xs">Design</p>
+                </section>
+                <section class="flex flex-col items-center justify-between gap-1">
+                    <img class="w-5 h-5" src="images/1 (6).jpg" alt="">
+                    <p class="font-medium text-xs">Luxe</p>
+                </section>
+                <section class="flex flex-col items-center justify-between gap-1">
+                    <img class="w-5 h-5" src="images/1 (7).jpg" alt="">
+                    <p class="font-medium text-xs">Dorms</p>
+                </section>
+                <section class="flex flex-col items-center justify-between gap-1">
+                    <img class="w-5 h-5" src="images/1 (8).jpg" alt="">
+                    <p class="font-medium text-xs">Tiny home</p>
+                </section>
+                <section class="flex flex-col items-center justify-between gap-1">
+                    <img class="w-5 h-5" src="images/1 (9).jpg" alt="">
+                    <p class="font-medium text-xs">New</p>
+                </section>
+                <section class="flex flex-col items-center justify-between gap-1">
+                    <img class="w-5 h-5" src="images/1 (10).jpg" alt="">
+                    <p class="font-medium text-xs">Surfing</p>
+                </section>
+                <section class="flex flex-col items-center justify-between gap-1">
+                    <img class="w-5 h-5" src="images/1 (11).jpg" alt="">
+                    <p class="font-bold text-xs">Countryside</p>
+                </section>
+                <section class="flex flex-col items-center justify-between gap-1">
+                    <img class="w-5 h-5" src="images/1 (12).jpg" alt="">
+                    <p class="font-medium text-xs">national Park</p>
+                </section>
+
+                <p class="font-bold border-[1.8px] px-4 py-2 rounded-lg">Filters</p>
+
+
+            </article>
     </header>
 
 
