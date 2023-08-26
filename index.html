@@ -8,22 +8,22 @@
     <script>
         tailwind.config = {
             theme: {
-                // screens: {
-                //     '2xl': { 'max': '1535px' },
-                //     // => @media (max-width: 1535px) { ... }
+                screens: {
+                    '2xl': { 'max': '1535px' },
+                    // => @media (max-width: 1535px) { ... }
 
-                //     'xl': { 'max': '1279px' },
-                //     // => @media (max-width: 1279px) { ... }
+                    'xl': { 'max': '1279px' },
+                    // => @media (max-width: 1279px) { ... }
 
-                //     'lg': { 'max': '1023px' },
-                //     // => @media (max-width: 1023px) { ... }
+                    'lg': { 'max': '1023px' },
+                    // => @media (max-width: 1023px) { ... }
 
-                //     'md': { 'max': '767px' },
-                //     // => @media (max-width: 767px) { ... }
+                    'md': { 'max': '767px' },
+                    // => @media (max-width: 767px) { ... }
 
-                //     'sm': { 'max': '639px' },
-                //     // => @media (max-width: 639px) { ... }
-                // }
+                    'sm': { 'max': '639px' },
+                    // => @media (max-width: 639px) { ... }
+                },
 
                 extend: {
                     colors: {
@@ -134,8 +134,8 @@
             <img class="w-12" src="images/off-button.png" alt="">
         </section>
 
-        <article class="flex justify-between gap-12">
-            <section class="w-1/4 flex flex-col justify-between gap-2">
+        <article class="gap-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-stretch">
+            <section class="flex flex-col justify-between gap-2">
                 <div class="w-full h-64 rounded-lg bg-no-repeat bg-cover flex justify-end items-start p-2"
                     style="background-image: url(images/pic\ \(1\).jpeg);">
                     <img class="w-8" src="images/fire.jpg" alt="">
@@ -145,7 +145,7 @@
                 <p class="text-gray-700">Jul 12, 2023</p>
                 <p><span class="font-bold">$115</span> night</p>
             </section>
-            <section class="w-1/4 flex flex-col justify-between gap-2">
+            <section class="flex flex-col justify-between gap-2">
                 <div class="w-full h-64 rounded-lg bg-no-repeat bg-cover flex justify-end items-start p-2"
                     style="background-image: url(images/pic\ \(1\).jpg);">
                     <img class="w-8" src="images/fire.jpg" alt="">
@@ -155,7 +155,7 @@
                 <p class="text-gray-700">Jul 12, 2023</p>
                 <p><span class="font-bold">$115</span> night</p>
             </section>
-            <section class="w-1/4 flex flex-col justify-between gap-2">
+            <section class="flex flex-col justify-between gap-2">
                 <div class="w-full h-64 rounded-lg bg-no-repeat bg-cover flex justify-end items-start p-2"
                     style="background-image: url(images/pic\ \(2\).jpeg);">
                     <img class="w-8" src="images/fire.jpg" alt="">
@@ -165,7 +165,7 @@
                 <p class="text-gray-700">Jul 12, 2023</p>
                 <p><span class="font-bold">$115</span> night</p>
             </section>
-            <section class="w-1/4 flex flex-col justify-between gap-2">
+            <section class="flex flex-col justify-between gap-2">
                 <div class="w-full h-64 rounded-lg bg-no-repeat bg-cover flex justify-end items-start p-2"
                     style="background-image: url(images/pic\ \(2\).jpg);">
                     <img class="w-8" src="images/fire.jpg" alt="">
@@ -178,9 +178,7 @@
 
 
 
-        </article>
-        <article class="flex justify-between gap-12 mt-12">
-            <section class="w-1/4 flex flex-col justify-between gap-2">
+            <section class=" flex flex-col justify-between gap-2">
                 <div class="w-full h-64 rounded-lg bg-no-repeat bg-cover flex justify-end items-start p-2"
                     style="background-image: url(images/pic\ \(3\).jpeg);">
                     <img class="w-8" src="images/fire.jpg" alt="">
@@ -190,7 +188,7 @@
                 <p class="text-gray-700">Jul 12, 2023</p>
                 <p><span class="font-bold">$115</span> night</p>
             </section>
-            <section class="w-1/4 flex flex-col justify-between gap-2">
+            <section class="flex flex-col justify-between gap-2">
                 <div class="w-full h-64 rounded-lg bg-no-repeat bg-cover flex justify-end items-start p-2"
                     style="background-image: url(images/pic\ \(3\).jpg);">
                     <img class="w-8" src="images/fire.jpg" alt="">
@@ -200,7 +198,7 @@
                 <p class="text-gray-700">Jul 12, 2023</p>
                 <p><span class="font-bold">$115</span> night</p>
             </section>
-            <section class="w-1/4 flex flex-col justify-between gap-2">
+            <section class="flex flex-col justify-between gap-2">
                 <div class="w-full h-64 rounded-lg bg-no-repeat bg-cover flex justify-end items-start p-2"
                     style="background-image: url(images/pic\ \(4\).jpeg);">
                     <img class="w-8" src="images/fire.jpg" alt="">
@@ -210,7 +208,7 @@
                 <p class="text-gray-700">Jul 12, 2023</p>
                 <p><span class="font-bold">$115</span> night</p>
             </section>
-            <section class="w-1/4 flex flex-col justify-between gap-2">
+            <section class="flex flex-col justify-between gap-2">
                 <div class="w-full h-64 rounded-lg bg-no-repeat bg-cover flex justify-end items-start p-2"
                     style="background-image: url(images/pic\ \(4\).jpg);">
                     <img class="w-8" src="images/fire.jpg" alt="">
@@ -223,9 +221,7 @@
 
 
 
-        </article>
-        <article class="flex justify-between gap-12 my-16">
-            <section class="w-1/4 flex flex-col justify-between gap-2">
+            <section class="flex flex-col justify-between gap-2">
                 <div class="w-full h-64 rounded-lg bg-no-repeat bg-cover flex justify-end items-start p-2"
                     style="background-image: url(images/pic\ \(5\).jpeg);">
                     <img class="w-8" src="images/fire.jpg" alt="">
@@ -235,7 +231,7 @@
                 <p class="text-gray-700">Jul 12, 2023</p>
                 <p><span class="font-bold">$115</span> night</p>
             </section>
-            <section class="w-1/4 flex flex-col justify-between gap-2">
+            <section class="flex flex-col justify-between gap-2">
                 <div class="w-full h-64 rounded-lg bg-no-repeat bg-cover flex justify-end items-start p-2"
                     style="background-image: url(images/pic\ \(6\).jpeg);">
                     <img class="w-8" src="images/fire.jpg" alt="">
@@ -245,7 +241,7 @@
                 <p class="text-gray-700">Jul 12, 2023</p>
                 <p><span class="font-bold">$115</span> night</p>
             </section>
-            <section class="w-1/4 flex flex-col justify-between gap-2">
+            <section class="flex flex-col justify-between gap-2">
                 <div class="w-full h-64 rounded-lg bg-no-repeat bg-cover flex justify-end items-start p-2"
                     style="background-image: url(images/pic\ \(5\).jpg);">
                     <img class="w-8" src="images/fire.jpg" alt="">
@@ -255,7 +251,7 @@
                 <p class="text-gray-700">Jul 12, 2023</p>
                 <p><span class="font-bold">$115</span> night</p>
             </section>
-            <section class="w-1/4 flex flex-col justify-between gap-2">
+            <section class="flex flex-col justify-between gap-2">
                 <div class="w-full h-64 rounded-lg bg-no-repeat bg-cover flex justify-end items-start p-2"
                     style="background-image: url(images/pic\ \(6\).jpg);">
                     <img class="w-8" src="images/fire.jpg" alt="">
